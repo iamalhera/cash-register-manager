@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #34a0a4;
+    --secondary-color:  #1a5052;
+}
+body{
+    font-family: 'Cabin', sans-serif;
+    margin: 0;
+}
+
+nav{
+    text-align: center;
+    color: white;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-bottom-left-radius: 2rem;
+}
+.main{
+    text-align: center;
+}
+ .description{
+     font-weight: bold;
+     font-size: 1.3rem;
+     margin: 0.5rem;
+ }
+
+.input-heading{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+#textarea1{
+    font-size: 14px;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+}   
+
+#textarea2{
+    font-size: 14px;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+}
+#textarea3{
+  font-size: 14px;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+}
+#check-button{
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    color: white;
+    background-color: var(--primary-color) ;
+    border: none;
+    border-radius: 1rem;
+    font-size: 120%;
+}
+
+
+
+
+
+
+ footer{
+     position: fixed;
+     bottom: 0;
+     border-top-right-radius: 2rem;
+     width: 100%;
+     background-color: var(--primary-color);
+     text-align: center;
+ }
+.footer-btn{
+     text-decoration: none;
+     color: var(--primary-color);
+     padding: 0.5rem 1rem;
+     background: white;
+     border-radius: 1rem;
+ }
