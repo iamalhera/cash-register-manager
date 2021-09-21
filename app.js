@@ -1,12 +1,19 @@
-var billAmount = document.querySelector("#textarea1");
-var cashGiven = document.querySelector("#textarea2");
-var checkBtn = document.querySelector("#check-button");
-var result = document.querySelector("#textarea3");
+const billAmount = document.querySelector("#bill-amount");
+const cashGiven = document.querySelector("#cash-given");
+const checkBtn = document.querySelector("#check-button");
+const message = document.querySelector("#error-message") ;
 
 
-function clickEventHandler(){
-    console.log("click ho gaya bhai");
+function kaamkarjabhai(){
+    message.style.display = "none" ;
+    if (billAmount.value < 0){
+        message.style.display = "block" ;
+       message.innerText = "aisa kaisa chalega" ;
+    } else{}
+    if (cashGiven.value < billAmount.value){
+        message.style.display = "block" ;
+        message.innerText = "fir se aisa kaisa chalega didi" ;
+    }
 }
 
-checkBtn.addEventListener("click",clickEventHandler) ;
-
+checkBtn.addEventListener("click", kaamkarjabhai) ; 

@@ -9,29 +9,29 @@ body{
     margin: 0;
 }
 
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    text-align: center;
+    margin: auto;
+}
 nav{
     text-align: center;
     color: white;
     background-color: var(--primary-color);
-    padding: 1rem;
+    padding: 0.75rem;
     border-bottom-left-radius: 2rem;
 }
-.main{
-    text-align: center;
-}
+
  .description{
      font-weight: bold;
      font-size: 1.3rem;
      margin: 0.5rem;
  }
 
-.input-heading{
-    text-align: center;
-    font-size: 1.5rem;
-    color: var(--primary-color);
-}
 
-#textarea1{
+#cash-given{
     font-size: 14px;
   outline: #fff;
   padding: 0.6rem 1rem;
@@ -42,7 +42,7 @@ nav{
   max-width: 258px;
 }   
 
-#textarea2{
+#bill-amount{
     font-size: 14px;
   outline: #fff;
   padding: 0.6rem 1rem;
@@ -79,16 +79,16 @@ nav{
 
 
  footer{
-     position: fixed;
-     bottom: 0;
      border-top-right-radius: 2rem;
      width: 100%;
      background-color: var(--primary-color);
+     color: whitesmoke;
      text-align: center;
+     padding-bottom: 1rem;
  }
 .footer-btn{
      text-decoration: none;
-     color: var(--primary-color);
+     color: var(--secondary-color);
      padding: 0.5rem 1rem;
      background: white;
      border-radius: 1rem;
