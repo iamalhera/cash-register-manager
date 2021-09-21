@@ -8,14 +8,7 @@ body{
     font-family: 'Cabin', sans-serif;
     margin: 0;
 }
-
-.main{
-    display: flex;
-    flex-direction: column;
-    width: 60vw;
-    text-align: center;
-    margin: auto;
-}
+/* navigation  */
 nav{
     text-align: center;
     color: white;
@@ -23,6 +16,16 @@ nav{
     padding: 0.75rem;
     border-bottom-left-radius: 2rem;
 }
+
+/* main body  */
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    text-align: center;
+    margin: auto;
+}
+
 
  .description{
      font-weight: bold;
@@ -52,16 +55,25 @@ nav{
   width: 100%;
   max-width: 258px;
 }
-#textarea3{
-  font-size: 14px;
-  outline: #fff;
-  padding: 0.6rem 1rem;
-  margin: 1rem;
-  border: 2px solid var(--primary-color);
-  border-radius: 0.5rem;
-  width: 100%;
-  max-width: 258px;
-}
+
+.input-label {
+    display: block;
+    font-size: large;
+    font-weight: 600;
+  }
+  
+  .input {
+    font-size: 14px;
+    padding: 0.6rem 1rem;
+    margin: 1rem ;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 2px;
+  }
+
+
+
 #check-button{
     display: block;
     margin: auto;
@@ -73,10 +85,30 @@ nav{
     font-size: 120%;
 }
 
+/* table  */
+.change-table {
+    width: 50%;
+    text-align: justify;
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  .change-table caption {
+    margin: 1rem auto;
+    font-size: x-large;
+    font-weight: 500;
+  }
+  
+  th,
+  td {
+    border: 2px solid var(--primary-color);
+    width: 0%;
+    border-collapse: collapse;
+    padding: 0.4rem;
+  }
 
 
-
-
+/* footer  */
 
  footer{
      border-top-right-radius: 2rem;
